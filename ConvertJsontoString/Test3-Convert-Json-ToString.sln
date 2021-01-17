@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test3-Convert-Json-ToString", "Test3-Convert-Json-ToString.csproj", "{3AE83497-EE20-434F-9185-DACAAD633FCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AE83497-EE20-434F-9185-DACAAD633FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE83497-EE20-434F-9185-DACAAD633FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE83497-EE20-434F-9185-DACAAD633FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE83497-EE20-434F-9185-DACAAD633FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80507B3B-BF5E-4BEE-9A18-C86244163242}
+	EndGlobalSection
+EndGlobal
