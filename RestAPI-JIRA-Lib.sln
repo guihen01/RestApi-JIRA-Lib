@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAPI-JIRA-Lib", "RestAPI-JIRA-Lib.csproj", "{B2E52141-9C37-437B-8268-0D17B53B5D5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2E52141-9C37-437B-8268-0D17B53B5D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E52141-9C37-437B-8268-0D17B53B5D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E52141-9C37-437B-8268-0D17B53B5D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E52141-9C37-437B-8268-0D17B53B5D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74145A16-3B1E-4581-A195-BB294303DBFB}
+	EndGlobalSection
+EndGlobal
