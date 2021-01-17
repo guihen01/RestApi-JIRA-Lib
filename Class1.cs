@@ -90,7 +90,7 @@ namespace JiraLib
 
             var client = new HttpClient();
 
-            
+
             var base64String = Convert.ToBase64String(Encoding.ASCII.GetBytes($"{username}:{password}"));
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", base64String);
 
@@ -156,7 +156,149 @@ namespace JiraLib
             }
             Console.WriteLine("text formated file : List-groups.txt created ");
             Console.WriteLine("----------------------------------------------------------");
-        }    
+        }
+    }
+
+    public class Tools
+    {
+
+        /// <summary>
+        ///  read a json formated file and convert to a text (string) formated file 
+        /// </summary> 
+        public static JObject ConvertJsontoString()
+        {
+            string path1;
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("json file name (JSon format) to convert ?  ");
+            Console.WriteLine("--------------------------------------------------");
+            path1 = Console.ReadLine();
+            Console.WriteLine("----------------------------------------------------------");
+
+            // Get the current directory where we want to read the json file.
+            //--------------------------------------------------------------
+            string dir = Directory.GetCurrentDirectory();
+            string path = dir + "/" + path1;
+
+            //Read  the data under json format in a file 
+            //----------------------------------------------------------------------------
+            string Result;
+            using (var tw = new StreamReader(path, true))
+            {
+                Result = tw.ReadLine();
+                tw.Close();
+            }
+
+            //write to Console sous forme d'objet
+            //---------------------------------------------------------------------------
+            JObject Ob = JObject.Parse(Result);
+            Console.WriteLine(Ob.ToString());
+            Console.WriteLine("----------------------------------------------------------");
+
+            // write the result in a text formated file
+            //----------------------------------------------------------------------------
+            //ecriture dans un fichier des données au format string
+            string path3;
+            Console.WriteLine("pahtname of json file (text format) to create ?  ");
+            path3 = Console.ReadLine();
+            Console.WriteLine("--------------------------------------------------");
+
+            string path4;
+            path4 = dir + "/" + path3;
+
+            if (File.Exists(path4))
+            {
+                File.Delete(path4);
+            }
+            using (var tw1 = new StreamWriter(path4, true))
+            {
+                tw1.WriteLine(Ob.ToString());
+                tw1.Close();
+            }
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("json formated file : ¨{0} .txt created ", path4);
+            Console.WriteLine("----------------------------------------------------------");
+
+            //return object type . teh object returned is the json file formated as an object
+            return (Ob);
+        }
+
+
+        /// <summary>
+        ///  read a json formated file and convert to a text (string) formated file 
+        /// </summary> 
+        public static JObject ConvertJsontoString(string pathname, string filenameJson, string filenameTxt)
+        {
+
+            string Fullpath;
+            // Use Combine again to add the file name to the path.
+            Fullpath = System.IO.Path.Combine(pathname, filenameJson);
+
+            //Read  the data under json format in a file 
+            //----------------------------------------------------------------------------
+            string Result;
+            using (var tw = new StreamReader(Fullpath, true))
+            {
+                Result = tw.ReadLine();
+                tw.Close();
+            }
+
+            //write to Console sous forme d'objet
+            //---------------------------------------------------------------------------
+            Console.WriteLine("----------------------------------------------------------");
+            JObject Ob = JObject.Parse(Result);
+            Console.WriteLine(Ob.ToString());
+            Console.WriteLine("----------------------------------------------------------");
+
+            // write the result in a text (string) formated file
+            //----------------------------------------------------------------------------
+            string Fullpath1;
+            Fullpath1 = System.IO.Path.Combine(pathname, filenameTxt);
+
+            if (File.Exists(Fullpath1))
+            {
+                File.Delete(Fullpath1);
+            }
+            using (var tw1 = new StreamWriter(Fullpath1, true))
+            {
+                tw1.WriteLine(Ob.ToString());
+                tw1.Close();
+            }
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("json formated file : ¨{0} .txt created ", Fullpath1);
+            Console.WriteLine("----------------------------------------------------------");
+
+            //return object type . teh object returned is the json file formated as an object
+            return (Ob);
+        }
+
+        /// <summary>
+        ///  read a json formated file and convert to a text (string) formated file 
+        /// </summary> 
+        public static JObject ConvertJsontoString(string fileJson, string fileTxt)
+        {
+            //Read  the data under json format in a file 
+            //----------------------------------------------------------------------------
+            string Result;
+            using (var tw = new StreamReader(fileJson, true))
+            {
+                Result = tw.ReadLine();
+                tw.Close();
+            }
+
+            JObject Ob = JObject.Parse(Result);
+
+            // write the result in a text (string) formated file
+            //----------------------------------------------------------------------------
+            using (var tw1 = new StreamWriter(fileTxt, true))
+            {
+                tw1.WriteLine(Ob.ToString());
+                tw1.Close();
+            }
+
+            //return object type . the object returned is the json file formated as an object
+            return (Ob);
+        }
+
     }
 }
 
