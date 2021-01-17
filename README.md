@@ -15,5 +15,6 @@ Is distributed as a .DLL library file
 # How to use
 
 in your C# project , do a reference in your poject to this DLL
-See How to use it , in : .................
+
+See How to use it , in : https://github.com/guihen01/RestApi-JIRA-Lib/tree/main/Get-All-Jira-Groups
 
