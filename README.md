@@ -6,6 +6,8 @@ form : DLL
 
 used to extract or to get informations on Jira server
 
+https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Library%20view.PNG
+
 # Publication
 
 Package distributed as a nuget package at : https://www.nuget.org/packages/RestAPI-JIRA-Lib/
