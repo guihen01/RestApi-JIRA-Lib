@@ -29,3 +29,6 @@ See How to use it , in : https://github.com/guihen01/RestApi-JIRA-Lib/tree/main/
 Also in : https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Get%20Users%20From%20Group/Screenshots/Capture%20How%20to%20use.PNG
 
 routines are async . so use await instruction for some routines 
+
+# Download
+Download the nuget package at : https://www.nuget.org/packages/RestAPI-JIRA-Lib/
