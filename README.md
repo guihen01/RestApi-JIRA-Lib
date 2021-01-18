@@ -34,5 +34,5 @@ routines are async . so use await instruction for some routines
 
 OR
 
-2. Download the .DLL and others items at https://github.com/guihen01/RestApi-JIRA-Lib/releases/tag/RESTs/tag/REST
-3. for v1.2 0 version ( others version on https://github.com/guihen01/RestApi-JIRA-Lib/releases/ )
+2. Download the .DLL and others items at https://github.com/guihen01/RestApi-JIRA-Lib/releases/
+ 
