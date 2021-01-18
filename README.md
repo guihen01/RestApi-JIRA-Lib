@@ -7,7 +7,8 @@ form : DLL
 used to extract or to get informations on Jira server
 
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Library%20view.PNG
-
+Inline-style: 
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Library%20view.PNG "Logo Title Text 1")
 
 # Publication
 
