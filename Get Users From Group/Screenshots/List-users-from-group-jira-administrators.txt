@@ -1,0 +1,24 @@
+{
+  "self": "http://localhost:8080/rest/api/2/group/member?includeInactiveUsers=false&maxResults=50&groupname=jira-administrators&startAt=0",
+  "maxResults": 50,
+  "startAt": 0,
+  "total": 1,
+  "isLast": true,
+  "values": [
+    {
+      "self": "http://localhost:8080/rest/api/2/user?username=guihen01",
+      "name": "guihen01",
+      "key": "guihen01",
+      "emailAddress": "henri.guihen01@gmail.com",
+      "avatarUrls": {
+        "48x48": "http://localhost:8080/secure/useravatar?avatarId=10343",
+        "24x24": "http://localhost:8080/secure/useravatar?size=small&avatarId=10343",
+        "16x16": "http://localhost:8080/secure/useravatar?size=xsmall&avatarId=10343",
+        "32x32": "http://localhost:8080/secure/useravatar?size=medium&avatarId=10343"
+      },
+      "displayName": "guillot henri",
+      "active": true,
+      "timeZone": "America/New_York"
+    }
+  ]
+}
