@@ -16,9 +16,19 @@ Is distributed as a .DLL library file
 
 # How to use
 
-in your C# project , do a reference in your project to this DLL
+in your C# project , do a reference in your project to this DLL   using JiraLib;
+using Newtonsoft.Json;
+using System;
+using System.IO;
+using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text;
+using Newtonsoft.Json.Linq;
+using JiraLib;
 
 See How to use it , in : https://github.com/guihen01/RestApi-JIRA-Lib/tree/main/Get-All-Jira-Groups
 
 Also in : https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Get%20Users%20From%20Group/Screenshots/Capture%20How%20to%20use.PNG
 
+routines are async . so use await instruction for some routines 
