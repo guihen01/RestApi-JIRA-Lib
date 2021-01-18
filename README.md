@@ -36,3 +36,7 @@ OR
 
 2. Download the .DLL and others items at https://github.com/guihen01/RestApi-JIRA-Lib/releases/
  
+# Routines inside the Library : 
+1. GetAllGroups
+2. Post1
+3. ConverJsontoString
