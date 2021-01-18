@@ -5,9 +5,9 @@
 3. used to extract or to get informations on Jira server
 4. is used with C# code 
 
-https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Library%20view%20v1.2.0.PNG
+https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Library%20view.PNG
 
-![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Library%20view%20v1.2.0.PNG "Logo Title Text 1")
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Library%20view.PNG "Logo Title Text 1")
 
 # Publication
 
