@@ -31,3 +31,5 @@ routines are async . so use await instruction for some routines
 
 # Download
 Download the nuget package at : https://www.nuget.org/packages/RestAPI-JIRA-Lib/
+OR
+Download the .DLL and others items at https://github.com/guihen01/RestApi-JIRA-Lib/releases/tag/REST
