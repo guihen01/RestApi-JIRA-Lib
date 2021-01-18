@@ -8,7 +8,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>JIRA RESTAPI Json</PackageTags>
     <Description>routines using JIRA REST API  to get or post  details on Jira server . results are printed on console and writen in json formated files and plain text formated files.</Description>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
