@@ -1,4 +1,4 @@
-# RestApi-JIRA-Lib
+## RestApi-JIRA-Lib
 
 Library of jira routines based on REST API
 
