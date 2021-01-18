@@ -7,7 +7,7 @@ form : DLL
 used to extract or to get informations on Jira server
 
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Library%20view.PNG
-
+@@ -10,8 +10,9 @@ Files <a href="https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Library%20view.PNG
 <a href="https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Library%20view.PNG ">Jiralib</a>
 
 # Publication
