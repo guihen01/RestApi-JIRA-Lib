@@ -2,8 +2,8 @@
 
 1. Library of jira routines based on REST API
 2. form : DLL
-
-used to extract or to get informations on Jira server
+3. used to extract or to get informations on Jira server
+4. is used with C# code 
 
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Library%20view.PNG
 
