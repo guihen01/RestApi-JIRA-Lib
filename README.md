@@ -1,7 +1,8 @@
 ## RestApi-JIRA-Lib
 
-1.Library of jira routines based on REST API
-2.form : DLL
+Library of jira routines based on REST API
+
+form : DLL
 
 used to extract or to get informations on Jira server
 
