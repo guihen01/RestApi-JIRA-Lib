@@ -15,6 +15,11 @@ Package distributed as a nuget package at : https://www.nuget.org/packages/RestA
 
 Is distributed as a .DLL library file
 
+# Dependency 
+
+package JiraLib : JiraLib.DLL
+package Newtonsoft.Json;   
+
 # How to use
 
 in your C# project , do a reference in your project to this DLL   using JiraLib;
