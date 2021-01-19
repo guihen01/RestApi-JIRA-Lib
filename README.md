@@ -53,4 +53,4 @@ OR
 # Pickitem() routine
 
 a simple routine which retruns a list of groups and/or names and/or emailadresses with string matching
-![alt text]( ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Get%20Users%20From%20Group/Screenshots/Capture%20How%20to%20use.PNG "Logo Title Text 1") "Logo Title Text 1")
+![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/PickItems/Result-Screenshots/Capture1.PNG "Logo Title Text 1") "Logo Title Text 1")
