@@ -48,4 +48,4 @@ OR
 2. GetUSersFromGroup
 3. Post1
 4. ConverJsontoString
-5. PickItems 
+5. PickItems   : create 2 files  : List-items.json & List-items.txt  which include the groups and/or names and/or emailadresses with string matching
