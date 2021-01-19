@@ -17,8 +17,11 @@ Is distributed as a .DLL library file
 
 # Dependency 
 
-package JiraLib : JiraLib.DLL
-package Newtonsoft.Json;   
+1. package JiraLib : JiraLib.DLL
+2. package Newtonsoft.Json;   
+
+https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/nuget%20packages%20needed.PNG
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/nuget%20packages%20needed.PNG  "Logo Title Text 1")
 
 # How to use
 
