@@ -25,9 +25,8 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/nuget%20packages%20needed
 
 # How to use
 
-in your C# project , do a reference in your project to this DLL   using JiraLib;
-
-using JiraLib;
+1. using JiraLib             in you project, reference this package   
+2. using Newtonsoft.Json;  ;  in your project,  reference this package 
 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Get%20Users%20From%20Group/Screenshots/Capture%20How%20to%20use.PNG "Logo Title Text 1")
 
@@ -49,3 +48,4 @@ OR
 2. GetUSersFromGroup
 3. Post1
 4. ConverJsontoString
+5. 
