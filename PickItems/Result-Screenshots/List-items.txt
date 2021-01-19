@@ -1,0 +1,40 @@
+{
+  "users": {
+    "users": [],
+    "total": 0,
+    "header": "Showing 0 of 0 matching users"
+  },
+  "groups": {
+    "header": "Showing 2 of 2 matching groups",
+    "total": 2,
+    "groups": [
+      {
+        "name": "jira-administrators",
+        "html": "<b>jira</b>-administrators",
+        "labels": [
+          {
+            "text": "Admin",
+            "title": "Users added to this group will be given administrative access",
+            "type": "ADMIN"
+          },
+          {
+            "text": "Jira Software",
+            "title": "Users added to this group will be given access to <strong>Jira Software</strong>",
+            "type": "SINGLE"
+          }
+        ]
+      },
+      {
+        "name": "jira-software-users",
+        "html": "<b>jira</b>-software-users",
+        "labels": [
+          {
+            "text": "Jira Software",
+            "title": "Users added to this group will be given access to <strong>Jira Software</strong>",
+            "type": "SINGLE"
+          }
+        ]
+      }
+    ]
+  }
+}
