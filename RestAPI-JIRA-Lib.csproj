@@ -8,11 +8,22 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>JIRA RESTAPI Json</PackageTags>
     <Description>routines using JIRA REST API  to get or post  details on Jira server . results are printed on console and writen in json formated files and plain text formated files.</Description>
-    <Version>1.2.0</Version>
+    <Version>1.4.0</Version>
+    <PackageProjectUrl>https://github.com/guihen01/RestApi-JIRA-Lib</PackageProjectUrl>
+    <PackageReleaseNotes>include the new routine : PickItems()</PackageReleaseNotes>
+    <PackageIcon>Henri Guillot.png</PackageIcon>
+    <Copyright>Henri Guillot</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Users\guihen01\Desktop\Henri Guillot.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
