@@ -52,7 +52,7 @@ OR
 6. Find-Users() : Returns a list of users that match the search string.(store the results in 2 files : List-users.json & List-users.txt)
 7. JsontJObjectToString() : read a json formated file (type JObject) and convert to a text (string) formated file 
 8. JsontJTokenToString() : read a json formated file (type JToken) and convert to a text (string) formated file 
-9. ReadJSonFromFile() : read a json from a file and convert to a text (string) formated file 
+9. JsontArrayToString() : read a json from a file (type JArray) and convert to a text (string) formated file 
 
 # Pickitem() routine
 
