@@ -48,7 +48,8 @@ OR
 2. GetUSersFromGroup
 3. Post1
 4. ConverJsontoString
-5. PickItems   : create 2 files  : List-items.json & List-items.txt  which include the groups and/or names and/or emailadresses with string matching
+5. PickItems()   : create 2 files  : List-items.json & List-items.txt  which include the groups and/or names and/or emailadresses with string matching
+6. Find-Users() : Returns a list of users that match the search string.(store the results in 2 files : List-users.json & List-users.txt)
 
 # Pickitem() routine
 
