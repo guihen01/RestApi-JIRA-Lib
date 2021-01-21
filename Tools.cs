@@ -228,20 +228,17 @@ namespace JiraLib
         /// </summary> 
         /// <param name="fileJson">  json file name :   </param>
         /// <param name="fileTxt">  Txt file name   </param>
-        /// <returns>  a JObject type (json file formated as an object of type JObject)  </returns> 
-        public static JObject ReadJSonFromFile(string fileJson, string fileTxt)
+        /// <returns>  a JArray type (json file formated as an object of type JArray)  </returns> 
+        public static JArray ReadJSonFromFile(string fileJson, string fileTxt)
         {
-            
             // read JSON directly from a file
-            JObject Ob;
+            JArray Ob;
             using (StreamReader file = File.OpenText(fileJson))
             using (JsonTextReader reader = new JsonTextReader(file))
             {
-                Ob = (JObject)JToken.ReadFrom(reader);
+                Ob = (JArray)JArray.ReadFrom(reader);
             }
-            
-            //JToken Ob = JToken.Parse(Result);
-            
+
             // write the result in a text (string) formated file
             using (var tw1 = new StreamWriter(fileTxt, true))
             {
@@ -249,7 +246,7 @@ namespace JiraLib
                 tw1.Close();
             }
 
-            //return object type . the object returned is the json file formated as JObject
+            //return object type . the object returned is the json file formated as JArray
             return (Ob);
         }
     }
