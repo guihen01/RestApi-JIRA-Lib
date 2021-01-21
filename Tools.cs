@@ -167,7 +167,8 @@ namespace JiraLib
         /// <returns>  a JObject type (json file formated as an object of type JObject)  </returns> 
         public static JObject JsontJObjectToString(string fileJson, string fileTxt)
         {
-            // Read  the data under json format in a file 
+            // Read  the data under json format in a file. The file must contain a JObject type of data
+            //-----------------------------------------------------------------------------------------
             // The json file must be of a JObject type compatible          
             //----------------------------------------------------------------------------
             string Result;
@@ -199,7 +200,8 @@ namespace JiraLib
         /// <returns>  a JToken type (json file formated as an object of type JToken)  </returns> 
         public static JToken JsontJTokenToString(string fileJson, string fileTxt)
         {
-            // Read  the data under json format in a file 
+            // Read  the data under json format in a file. The file must contain a JToken type of data
+            //---------------------------------------------------------------------------------------
             // The json file must be of a JObject type compatible          
             //----------------------------------------------------------------------------
             string Result;
@@ -224,14 +226,15 @@ namespace JiraLib
         }
 
         /// <summary>
-        ///  read a json from a file and convert to a text (string) formated file 
+        ///  read a json from a file (type : JArray) and convert to a text (string) formated file 
         /// </summary> 
         /// <param name="fileJson">  json file name :   </param>
         /// <param name="fileTxt">  Txt file name   </param>
         /// <returns>  a JArray type (json file formated as an object of type JArray)  </returns> 
-        public static JArray ReadJSonFromFile(string fileJson, string fileTxt)
+        public static JArray JsontArrayToString(string fileJson, string fileTxt)
         {
-            // read JSON directly from a file
+            // read JSON directly from a file . The file must contain a JArray type of data
+            //------------------------------------------------------------------------------
             JArray Ob;
             using (StreamReader file = File.OpenText(fileJson))
             using (JsonTextReader reader = new JsonTextReader(file))
