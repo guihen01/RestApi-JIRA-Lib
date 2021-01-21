@@ -16,10 +16,10 @@ namespace Test6_Read_json_from_file
     {
         static void Main(string[] args)
         {
-            // read list-users .json ( contains JArray) 
+            // read list-users.json (contains JArray) and store result in t1.txt
             Tools.JsontArrayToString("List-users.json","t1.txt");
 
-            // read list-users .json ( contains JObject) 
+            // read list-users-from-group-toulon.json (contains JObject) and store result in t3.txt
             Tools.JsontJObjectToString("List-users-from-group-toulon.json", "t3.txt");
         }
     }
