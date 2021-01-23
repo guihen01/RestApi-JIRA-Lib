@@ -53,8 +53,10 @@ OR
 7. JsontJObjectToString() : read a json formated file (type JObject) and convert to a text (string) formated file 
 8. JsontJTokenToString() : read a json formated file (type JToken) and convert to a text (string) formated file 
 9. JsontArrayToString() : read a json from a file (type JArray) and convert to a text (string) formated file 
+10. GetServerInfo() : Get informations on Jira server
+11. GetAllProjects() : Get all projects
 
-# Pickitem() routine
+# Pickitem() : routine
 
 a simple routine which retruns a list of groups and/or names and/or emailadresses with string matching
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/PickItems/Result-Screenshots/Capture1.PNG "Logo Title Text 1") "Logo Title Text 1")
