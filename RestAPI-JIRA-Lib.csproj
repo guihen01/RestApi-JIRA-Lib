@@ -8,9 +8,11 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>JIRA RESTAPI Json</PackageTags>
     <Description>routines using JIRA REST API  to get or post  details on Jira server . results are printed on console and writen in json formated files and plain text formated files.</Description>
-    <Version>1.4.0</Version>
+    <Version>2.0.0</Version>
     <PackageProjectUrl>https://github.com/guihen01/RestApi-JIRA-Lib</PackageProjectUrl>
-    <PackageReleaseNotes>include the new routine : PickItems()</PackageReleaseNotes>
+    <PackageReleaseNotes>include new routines :  GetAllProjects(), GetServerInfo()
+GetAllProjects()  : Get informations and list of all Jira projects.
+GetServerInfo() : Get Jira server informations</PackageReleaseNotes>
     <PackageIcon>Henri Guillot.png</PackageIcon>
     <Copyright>Henri Guillot</Copyright>
   </PropertyGroup>
