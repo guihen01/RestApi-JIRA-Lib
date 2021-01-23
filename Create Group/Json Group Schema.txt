@@ -1,0 +1,12 @@
+{
+    "name": "jira-production"
+    "id": "https://docs.atlassian.com/jira/REST/schema/add-group#",
+    "title": "Add Group",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false
+}
