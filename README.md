@@ -44,8 +44,8 @@ OR
 2. Download the .DLL and others items at https://github.com/guihen01/RestApi-JIRA-Lib/releases/
  
 # Routines inside the Library : 
-1. GetAllGroups  : Get a list of all Jira groups
-2. GetUSersFromGroup
+1. GetAllGroups  : Get a list of all Jira groups and save the list in 2 files : List-groups.json & List-groups.txt
+2. GetUSersFromGroup : Get the list of all users belonging to a group.  
 3. Post1
 4. ConverJsontoString
 5. PickItems()   : create 2 files  : List-items.json & List-items.txt  which include the groups and/or names and/or emailadresses with string matching
@@ -55,7 +55,8 @@ OR
 9. JsontArrayToString() : read a json from a file (type JArray) and convert to a text (string) formated file 
 10. GetServerInfo() : Get informations on Jira server
 11. GetAllProjects() : Get all Jira projects and save the list in 2 files : List-projects.json & List-projects.txt
-12. CreateGroup() : Create a Jira group
+12. GetAllUsers() : Get the list of all Jira users and store the list in 2 files : List-all-users.json & List-all-users.txt
+13. CreateGroup() : Create a Jira group
 
 # Pickitem() : routine
 
