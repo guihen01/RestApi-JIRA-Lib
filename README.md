@@ -45,18 +45,20 @@ OR
  
 # Routines inside the Library : 
 1. GetAllGroups  : Get a list of all Jira groups and save the list in 2 files : List-groups.json & List-groups.txt
-2. GetUSersFromGroup : Get the list of all users belonging to a group.  
-3. Post1
-4. ConverJsontoString
-5. PickItems()   : create 2 files  : List-items.json & List-items.txt  which include the groups and/or names and/or emailadresses with string matching
-6. Find-Users() : Returns a list of users that match the search string.(store the results in 2 files : List-users.json & List-users.txt)
-7. JsontJObjectToString() : read a json formated file (type JObject) and convert to a text (string) formated file 
-8. JsontJTokenToString() : read a json formated file (type JToken) and convert to a text (string) formated file 
-9. JsontArrayToString() : read a json from a file (type JArray) and convert to a text (string) formated file 
-10. GetServerInfo() : Get informations on Jira server
-11. GetAllProjects() : Get all Jira projects and save the list in 2 files : List-projects.json & List-projects.txt
-12. GetAllUsers() : Get the list of all Jira users and store the list in 2 files : List-all-users.json & List-all-users.txt
-13. CreateGroup() : Create a Jira group
+2. GetUSersFromGroup : Get the list of all user's username belonging to a group and save the list in 2 files : List-users.json & List-users.txt
+3. GetUsernameFromGroup(username, password, urlbase, group) :
+Get the list of all user's username belonging to a group and save the list in 2 files : List-username-from-group-{0].json & List-username=from-group-{0}.txt . return a list of group's username as a string array 
+4. Post1
+5. ConverJsontoString
+6. PickItems()   : create 2 files  : List-items.json & List-items.txt  which include the groups and/or names and/or emailadresses with string matching
+7. Find-Users() : Returns a list of users that match the search string.(store the results in 2 files : List-users.json & List-users.txt)
+8. JsontJObjectToString() : read a json formated file (type JObject) and convert to a text (string) formated file 
+9. JsontJTokenToString() : read a json formated file (type JToken) and convert to a text (string) formated file 
+10. JsontArrayToString() : read a json from a file (type JArray) and convert to a text (string) formated file 
+11. GetServerInfo() : Get informations on Jira server
+12. GetAllProjects() : Get all Jira projects and save the list in 2 files : List-projects.json & List-projects.txt
+13. GetAllUsers() : Get the list of all Jira users and store the list in 2 files : List-all-users.json & List-all-users.txt
+14. CreateGroup() : Create a Jira group
 
 # Pickitem() : routine
 
