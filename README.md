@@ -45,9 +45,9 @@ OR
  
 # Routines inside the Library : 
 1. GetAllGroups  : Get a list of all Jira groups and save the list in 2 files : List-groups.json & List-groups.txt
-2. GetUSersFromGroup : Get the list of all user's username belonging to a group and save the list in 2 files : List-users.json & List-users.txt
+2. GetUSersFromGroup() : Get the list of all user's username belonging to a group and save the list in 2 files : List-users.json & List-users.txt . Print the list to the console
 3. GetUsernameFromGroup(username, password, urlbase, group) :
-Get the list of all user's username belonging to a group and save the list in 2 files : List-username-from-group-{0].json & List-username=from-group-{0}.txt . return a list of group's username as a string array 
+Get the list of all user's username belonging to a group and save the list in 2 files : List-username-from-group-{0}.json & List-username-from-group-{0}.txt . return a list of group's username as a string array 
 4. Post1
 5. ConverJsontoString
 6. PickItems()   : create 2 files  : List-items.json & List-items.txt  which include the groups and/or names and/or emailadresses with string matching
