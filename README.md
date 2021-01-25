@@ -9,6 +9,10 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/SolutionView1.PNGG
 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/SolutionView1.PNG "Logo Title Text 1")
 
+https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/SolutionView2.PNG
+
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/SolutionView2.PNG "Logo Title Text 1")
+
 # Publication
 
 Package distributed as a nuget package at : https://www.nuget.org/packages/RestAPI-JIRA-Lib/
