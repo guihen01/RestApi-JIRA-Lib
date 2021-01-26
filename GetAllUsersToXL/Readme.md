@@ -36,8 +36,4 @@
 
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/nuget%20packages%20needed.PNG alt text
 
-# How to use
 
-1. using JiraLib in you project, reference this package
-2. using Newtonsoft.Json; ; in your project, reference this package
-3. using 
