@@ -3,8 +3,8 @@
 
 1. Get All Jira user's username (from all groups)
 2. Store the list in several files : ( one file of username list per each group) List--users-from-group-.json & List-all-users-from-group .txt
-3. Write the result in an Excel file
-4. Returns a list of objects (objects of type Group) List
+3. Write the result in an Excel file( List-ALl-UsersGroups.xlsx ) in the current directory
+4. Returns a list of objects (objects of type : JiraLib.Group ) 
 
  ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsersToXL/Capture-1.PNG "Logo Title Text 1")
 
