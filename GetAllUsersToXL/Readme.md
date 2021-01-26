@@ -38,7 +38,7 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/nuget%20packages%20needed
 
 # Sample 
 
-Here the Data struture . The Data object is listed . Data contaisn all groups and users
+Here the Data struture (In Debuger mode) . The Data object is listed . Data contain all groups and users
 
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsersToXL/Capture-6.PNG
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsersToXL/Capture-6.PNG "Logo Title Text 1")
