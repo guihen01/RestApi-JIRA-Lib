@@ -1,7 +1,9 @@
-## Routine (method) : GetAllUsers()
+## Routine (method) : GetAllUsers(username, password, baseurl)
+ List<Group> Data;
+ Data = await GetAllUsers(username, password, baseurl);
 
 1. Get All Jira user's username (from all groups)
-2. Store the list in 2 files : List-all-users.json & List-all-users.txt
+2. Store the list in several  files :  ( one file of username list per each group)  List--users.json & List-all-users.txt
 3. Returns a list of objects (objects of type Group) List<Group>
 
 # Inplementation
