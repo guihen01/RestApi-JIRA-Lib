@@ -61,8 +61,8 @@ Get the list of all user's username belonging to a group and save the list in 2 
 10. JsontArrayToString() : read a json from a file (type JArray) and convert to a text (string) formated file 
 11. GetServerInfo() : Get informations on Jira server
 12. GetAllProjects() : Get all Jira projects and save the list in 2 files : List-projects.json & List-projects.txt
-13. GetAllUsers() :  Get All Jira user's username (from all groups)  and store the list in 2 files : List-all-users.json & List-all-users.txt
-14. GetAllUsersToXL() : Get the list of all Jira users and groups and store the list in 2 files : List-all-users.json & List-all-users.txt & write result to an Excel file
+13. GetAllUsers() :  Get All Jira user's username (from all groups)  and store the list for each group  in 2 files : List-all-users-from-group.json & List-all-users-from-group.txt ( store it in the current directory)
+14. GetAllUsersToXL() : Get the list of all Jira users and groups and store the list for each group in 2 files : List-all-users.json & List-all-users.txt & write result to an Excel file
 15. CreateGroup() : Create a Jira group
 
 # Pickitem() : routine
