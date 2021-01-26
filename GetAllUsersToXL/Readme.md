@@ -24,10 +24,15 @@
 1. Package distributed as a nuget package at : https://www.nuget.org/packages/RestAPI-JIRA-Lib/
 2. Is distributed as a .DLL library file
 
+![alt text]( "Logo Title Text 1")
+
 # Dependency
 
-1. package JiraLib : JiraLib.DLL
-2. package Newtonsoft.Json;
+1. nuget package RestAPI-JIRA-Lib : JiraLib.DLL
+2. nuget package Newtonsoft.Json;
+3. nuget package EPPlus
+
+![alt text]( "Logo Title Text 1")
 
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/nuget%20packages%20needed.PNG alt text
 
@@ -35,3 +40,4 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/nuget%20packages%20needed
 
 1. using JiraLib in you project, reference this package
 2. using Newtonsoft.Json; ; in your project, reference this package
+3. using 
