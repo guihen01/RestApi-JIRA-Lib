@@ -6,7 +6,7 @@
 3. Write the result in an Excel file
 4. Returns a list of objects (objects of type Group) List
 
- ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsers/Capture-1.PNG "Logo Title Text 1")
+ ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsersToXL/Capture-1.PNG "Logo Title Text 1")
 
 # Inplementation
 
