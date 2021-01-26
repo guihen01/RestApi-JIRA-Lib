@@ -17,7 +17,7 @@
 
 # How to use it
 
-![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsers/Capture-1.PNG "Logo Title Text 1")
+![alt text]( "Logo Title Text 1")
 
 # Publication
 
