@@ -24,7 +24,7 @@ Is distributed as a .DLL library file
 1. package JiraLib : JiraLib.DLL
 2. package Newtonsoft.Json;  
 
-![alt text](  "Logo Title Text 1")
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Packages%20Capture-2.PNG  "Logo Title Text 1")
 
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/nuget%20packages%20needed.PNG
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/nuget%20packages%20needed.PNG  "Logo Title Text 1")
