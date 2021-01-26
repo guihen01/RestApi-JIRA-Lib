@@ -18,7 +18,6 @@
  
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsers/Capture-1.PNG "Logo Title Text 1")
 
-https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/SolutionView2.PNG
 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/SolutionView2.PNG "Logo Title Text 1")
 
