@@ -31,3 +31,5 @@
 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsernameFromGroup/Capture-3.PNG "Logo Title Text 1")
 
+# Exmple d<utilisation 
+
