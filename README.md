@@ -62,10 +62,10 @@ Get the list of all user's username belonging to a group and save the list in 2 
 11. GetServerInfo() : Get informations on Jira server
 12. GetAllProjects() : Get all Jira projects and save the list in 2 files : List-projects.json & List-projects.txt
 13. GetAllUsers() :  Get All Jira user's username (from all groups)  and store the list for each group  in 2 files : List-all-users-from-group.json & List-all-users-from-group.txt ( store it in the current directory). Returns a list of objects (objects of type Group) List
-14. GetAllUsersToXL() : Get the list of all Jira users and groups and store the list for each group in 2 files : List-all-users.json & List-all-users.txt & write result to an Excel file. Returns a list of objects (objects of type Group) List
+14. GetAllUsersToXL() : Get the list of all Jira users and groups and store the list for each group in 2 files : List-all-users.json & List-all-users.txt & write result to an Excel file (List-ALl-UsersGroups.xlsx). Returns a list of objects (objects of type Group) List
 15. CreateGroup() : Create a Jira group
 
-# Pickitem() : routine
+# Pickitem() :method
 
 a simple routine which retruns a list of groups and/or names and/or emailadresses with string matching
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/PickItems/Result-Screenshots/Capture1.PNG "Logo Title Text 1") "Logo Title Text 1")
@@ -75,3 +75,11 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/PickItems/Result-Screensh
 
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/PickItems/Result-Screenshots/Capture3.PNG
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/PickItems/Result-Screenshots/Capture3.PNG "Logo Title Text 1") 
+
+# GetAllUsersToXL() : method
+
+1. Export to a Excel file, the list of all groups and of all the users belonging to each group : 
+2. name of the export file : List-ALl-UsersGroups
+
+![alt text](  "Logo Title Text 1") "Logo Title Text 1")
+
