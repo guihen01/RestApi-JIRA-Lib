@@ -21,7 +21,7 @@
 1. Package distributed as a nuget package at : https://www.nuget.org/packages/RestAPI-JIRA-Lib/
 2. Is distributed as a .DLL library file
 
-![alt text]( "Logo Title Text 1")
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsernameFromGroup/Capture-2.PNG "Logo Title Text 1")
 
 # Dependency
 
