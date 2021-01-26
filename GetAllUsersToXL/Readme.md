@@ -38,6 +38,7 @@
 a file named : List-ALl-UsersGroups.xlsx is created in the current directory :
 
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsersToXL/List-ALl-UsersGroups.PNG
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsersToXL/List-ALl-UsersGroups.PNG "Logo Title Text 1")
 
 # Sample 
 
