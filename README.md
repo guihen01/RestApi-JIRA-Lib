@@ -26,8 +26,7 @@ Is distributed as a .DLL library file
 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Packages%20Capture-2.PNG  "Logo Title Text 1")
 
-https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/nuget%20packages%20needed.PNG
-![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/nuget%20packages%20needed.PNG  "Logo Title Text 1")
+![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Dependency-Capture.PNG "Logo Title Text 1")
 
 # How to use
 
