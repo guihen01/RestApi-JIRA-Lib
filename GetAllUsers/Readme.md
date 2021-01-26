@@ -4,7 +4,7 @@
  2. Data = await GetAllUsers(username, password, baseurl);
 
 1. Get All Jira user's username (from all groups)
-2. Store the list in several  files :  ( one file of username list per each group)  List--users.json & List-all-users.txt
+2. Store the list in several  files :  ( one file of username list per each group)  List--users-from-group-.json & List-all-users-from-group .txt
 3. Returns a list of objects (objects of type Group) List<Group>
 
 # Inplementation
@@ -16,7 +16,7 @@
 
  # How to use it 
  
-![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/SolutionView1.PNG "Logo Title Text 1")
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsers/Capture-1.PNG "Logo Title Text 1")
 
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/SolutionView2.PNG
 
