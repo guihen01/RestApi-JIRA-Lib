@@ -1,13 +1,12 @@
-## Routine (method) : GetAllUsers(username, password, baseurl)
+## Routine (method) : GetAllUsers()
  
- 1. List<Group> Data;
- 2. Data = await GetAllUsers(username, password, baseurl);
-
 1. Get All Jira user's username (from all groups)
 2. Store the list in several  files :  ( one file of username list per each group)  List--users-from-group-.json & List-all-users-from-group .txt
 3. Returns a list of objects (objects of type Group) List<Group>
 
-![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsers/Capture-1.PNG "Logo Title Text 1")# Inplementation
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsers/Capture-1.PNG "Logo Title Text 1")
+
+# Inplementation
 
 1. This method is part of a Library of jira routines (Jira methods) based on REST API
 2. Included in JiraLib.dll
@@ -17,9 +16,6 @@
  # How to use it 
  
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsers/Capture-2.PNG "Logo Title Text 1")
-
-
-![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/SolutionView2.PNG "Logo Title Text 1")
 
 # Publication
 
