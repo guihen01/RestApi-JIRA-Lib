@@ -1,4 +1,4 @@
-# Routine (method) : GetAllUsernameFromGroup()
+# Routine (method) : GetUsernameFromGroup()
 
 1. Get All Jira user's username (from a given group)
 2. Store the list in 2 files :   List-users-from-group- ...json & List-users-from-group.. .txt
