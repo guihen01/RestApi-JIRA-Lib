@@ -2,6 +2,7 @@
 
 1. Get All Jira user's username (from a given group)
 2. Store the list in 2 files :   List-users-from-group- ...json & List-users-from-group.. .txt
+3. REturns the list as an array of string : string[]
 
  ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsernameFromGroup/Capture-1.PNG "Logo Title Text 1")
 
