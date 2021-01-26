@@ -27,7 +27,7 @@
 
 1. nuget package RestAPI-JIRA-Lib : JiraLib.DLL
 2. nuget package Newtonsoft.Json;
-3. nuget package EPPlus
+
 
 ![alt text]( "Logo Title Text 1")
 
