@@ -1,7 +1,8 @@
 
-# Routine (method) : GetAllUsers()
+# Routine (method) : GetAllUsersToXL()
 Get All Jira user's username (from all groups)
 Store the list in several files : ( one file of username list per each group) List--users-from-group-.json & List-all-users-from-group .txt
+Write the result in an Excel file
 Returns a list of objects (objects of type Group) List
 alt text
 
