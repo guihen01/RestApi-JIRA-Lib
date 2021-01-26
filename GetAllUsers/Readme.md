@@ -1,14 +1,17 @@
-## Routine (method) : GetAllUsers(...)
+## Routine (method) : GetAllUsers()
 
 1. Get All Jira user's username (from all groups)
 2. Store the list in 2 files : List-all-users.json & List-all-users.txt
 3. Returns a list of objects (objects of type Group) List<Group>
-  
+
+# Inplementation
+
 1. This method is part of a Library of jira routines (Jira methods) based on REST API
 2. Included in JiraLib.dll
 3. used to extract or to get informations on Jira server, Jira users, Groups, and so on ......
 4. is used with C# code 
 
+ # How to use it 
  
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/SolutionView1.PNG "Logo Title Text 1")
 
