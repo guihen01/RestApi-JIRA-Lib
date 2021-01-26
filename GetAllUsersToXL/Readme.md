@@ -34,6 +34,9 @@
 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsersToXL/Capture-4.PNG "Logo Title Text 1")
 
+# What we get 
+
+
 # Sample 
 
 Here the Data struture (In Debuger mode) . The Data object is listed . Data contain all groups and users
