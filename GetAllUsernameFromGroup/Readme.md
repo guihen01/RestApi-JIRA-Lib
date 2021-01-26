@@ -29,5 +29,5 @@
 2. nuget package Newtonsoft.Json;
 
 
-![alt text]( "Logo Title Text 1")
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsernameFromGroup/Capture-3.PNG "Logo Title Text 1")
 
