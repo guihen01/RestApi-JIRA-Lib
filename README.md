@@ -64,7 +64,9 @@ Get the list of all user's username belonging to a group and save the list in 2 
 12. GetAllProjects() : Get all Jira projects and save the list in 2 files : List-projects.json & List-projects.txt
 13. GetAllUsers() :  Get All Jira user's username (from all groups)  and store the list for each group  in 2 files : List-all-users-from-group.json & List-all-users-from-group.txt ( store it in the current directory). Returns a list of objects (objects of type Group) List
 14. GetAllUsersToXL() : Get the list of all Jira users and groups and store the list for each group in 2 files : List-username-from-group-...json & List-username-from-group-...txt & write result to an Excel file (List-ALl-UsersGroups.xlsx). Returns a list of objects (objects of type Group) List
-15. CreateGroup() : Create a Jira group
+15. GetUsersDetailFromGroup() :  returns a list of users details for a group. As objects (objects of type Group) List<GroupInfo> & write result to file (Json style) : List-Details-from-group-{0}.txt" & write result to file (text file)  : List-accounts-from-group-{0}.txt" Details are : username, full name, email, group , active user or not 
+16. GetAllUsersDetail() : get all users details from all JIRA groups. GEt results as  json file and Text file and as an array of Objects list : <List<GroupInfo>[]
+17. CreateGroup() : Create a Jira group
 
 # Pickitem() :method
 
