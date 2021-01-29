@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using System.Linq;
 
+
 namespace JiraLib
 {
 
@@ -23,10 +24,11 @@ namespace JiraLib
         ///  Get list of username from a group 
         ///    
         ///  </summary>
-        /// <returns>  string[] : an array of string which contains the list of the group's username  </returns>   
+        /// <returns>  string[] : an array of string which contains the list of the group's username  </returns> 
+        /// 
+        //https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/async-return-types
         public static async Task<string[]> GetUSernameFromGroup(string username, string password, string urlbase, string group)
         {
-            string[] Users = new string[10000];
 
             string url;
             url = urlbase + "/rest/api/2/group/member?groupname=" + group;
@@ -73,16 +75,25 @@ namespace JiraLib
                from p in Ob["values"]
                select (string)p["name"];
 
-            int j = 0;
+
+            int nbusers = 0;
             foreach (var item in postTitles)
             {
-                Users[j] = item;
-                j++;
+                nbusers++;
             }
 
+            string[] Users = new string[nbusers];
+            int k = 0;
+            foreach (var item in postTitles)
+            {
+                Users[k] = item;
+                k++;
+            }
 
+            
             return Users;
         }
 
+        
     }
 }

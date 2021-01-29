@@ -20,7 +20,7 @@ namespace JiraLib
     /// <summary>
     /// Group object
     ///  </summary>
-    class Group
+    public class Group
     {
         public string groupname;
         public string[] Users;
@@ -30,7 +30,7 @@ namespace JiraLib
     ///  execute a GET http request on a Jira server with Rest API 
     /// include routines : GetAllUsers() & GetAllUsersToXL()  
     ///  </summary>
-    class Getall
+    public class Get1
     {
 
         //-----------------------------------------------------------------------------------------
