@@ -1,24 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
     <RootNamespace>RestAPI_JIRA_Lib</RootNamespace>
     <Authors>Henri Guillot</Authors>
     <RepositoryUrl>https://github.com/guihen01/RestApi-JIRA-Lib</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>JIRA RESTAPI Json</PackageTags>
     <Description>routines using JIRA REST API  to get or post  details on Jira server . results are printed on console and writen in json formated files and plain text formated files.</Description>
-    <Version>2.0.0</Version>
+    <Version>2.1.6</Version>
     <PackageProjectUrl>https://github.com/guihen01/RestApi-JIRA-Lib</PackageProjectUrl>
-    <PackageReleaseNotes>include new routines :  GetAllProjects(), GetServerInfo(), CreateGroup()
-GetAllProjects()  : Get informations and list of all Jira projects.
-GetServerInfo() : Get Jira server informations
-CreateGroup() : Create a new Jira group</PackageReleaseNotes>
+    <PackageReleaseNotes>add method  GetHttpResponse() more robust and include try catch methods to get errors when using http protocol services for geting or posting Rest Api Demands to JIRA server.
+Rebuild for netcore 5.0</PackageReleaseNotes>
     <PackageIcon>Henri Guillot.png</PackageIcon>
     <Copyright>Henri Guillot</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EPPlus" Version="5.5.2" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
