@@ -67,7 +67,8 @@ Get the list of all user's username belonging to a group and save the list in 2 
 15. GetUsersDetailFromGroup() :  returns a list of users details for a group. As objects (objects of type Group) List<GroupInfo> & write result to file (Json style) : List-Details-from-group-{0}.txt" & write result to file (text file)  : List-accounts-from-group-{0}.txt" Details are : username, full name, email, group , active user or not 
 16. GetAllUsersDetail() : get all users details from all JIRA groups. GEt results as  json file and Text file and as an array of Objects list : 
  <List<GroupInfo>[]
-17. CreateGroup() : Create a Jira group
+17. GetHttpResponse() :  include try catch methods to get errors when using http protocol services for geting or posting Rest Api Demands to JIRA server.
+18. CreateGroup() : Create a Jira group
 
 # Pickitem() :method
 
