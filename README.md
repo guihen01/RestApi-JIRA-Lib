@@ -68,6 +68,9 @@ Get the list of all user's username belonging to a group and save the list in 2 
 16. GetAllUsersDetail() : get all users details from all JIRA groups. GEt results as  json file and Text file and as an array of Objects list : 
  <List<GroupInfo>[]
 17. GetHttpResponse() :  include try catch methods to get errors when using http protocol services for geting or posting Rest Api Demands to JIRA server.
+18. GetAllUsersDetailToXL() : Execute a GET http request on a Jira server with Rest API, to get all users details from all JIRA groups 
+. Store all users's details in a file : List-ALl-UsersGroups.xlsx in the current directory
+. Return an array of List objects which contains all JIRA users details from all JIRA groups
 18. CreateGroup() : Create a Jira group
 
 # Pickitem() :method
@@ -88,3 +91,4 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/PickItems/Result-Screensh
 
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Excel%20file%20List-ALl-UsersGroups.PNG "Logo Title Text 1") "Logo Title Text 1")
 
+![alt text](  "Logo Title Text 1") "Logo Title Text 1")
