@@ -41,7 +41,7 @@ Is distributed as a .DLL library file
 
 1. using JiraLib             in you project, reference this package   
 2. using Newtonsoft.Json;  ;  in your project,  reference this package 
-3. using using OfficeOpenXml;  only for JiraLib methods using Excel, such as  GetAllUsersDetailToXL() or GetAllUsersToXL() 
+3. using OfficeOpenXml;  only for JiraLib methods using Excel, such as  GetAllUsersDetailToXL() or GetAllUsersToXL() 
 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Get%20Users%20From%20Group/Screenshots/Capture%20How%20to%20use.PNG "Logo Title Text 1")
 
