@@ -55,7 +55,7 @@ Also in : https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Get%20Users%20F
 routines are async . so use await instruction for some routines 
 
 # Download
-1. Download the nuget package ( name pf package :RestAPI-JIRA-Lib) at : https://www.nuget.org/packages/RestAPI-JIRA-Lib/
+1. Download the nuget package ( name of package : RestAPI-JIRA-Lib) at : https://www.nuget.org/packages/RestAPI-JIRA-Lib/
 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/RestAPI-JIRA-Lib%20nuget%20package.PNG "Logo Title Text 1")
 
