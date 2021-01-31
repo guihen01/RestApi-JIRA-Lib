@@ -30,10 +30,18 @@ Is distributed as a .DLL library file
 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Dependency.PNG "Logo Title Text 1")
 
+# Inplementation
+
+1. Download the nuget package : https://www.nuget.org/packages/RestAPI-JIRA-Lib/ in your project
+2. JiraLib methods can be used and referenced with the JiraLib.dll reference in your c# project 
+3. is used with C# code
+4. Developed and tested in Visual Studio 2019
+
 # How to use
 
 1. using JiraLib             in you project, reference this package   
 2. using Newtonsoft.Json;  ;  in your project,  reference this package 
+3. using using OfficeOpenXml;  only for JiraLib methods using Excel, such as  GetAllUsersDetailToXL() or GetAllUsersToXL() 
 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Get%20Users%20From%20Group/Screenshots/Capture%20How%20to%20use.PNG "Logo Title Text 1")
 
