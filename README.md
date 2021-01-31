@@ -55,6 +55,7 @@ routines are async . so use await instruction for some routines
 
 # Download
 1. Download the nuget package ( name pf package :RestAPI-JIRA-Lib) at : https://www.nuget.org/packages/RestAPI-JIRA-Lib/
+![alt text]( "Logo Title Text 1")
 
 OR
 
