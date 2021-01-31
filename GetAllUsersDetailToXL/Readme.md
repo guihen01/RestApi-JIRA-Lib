@@ -14,9 +14,9 @@
 
 # Inplementation
 
-1. This method is part of a Library of jira routines (Jira methods) : JiraLib.dll based on REST API, but can be used without LibJira.dll
-2. Included in JiraLib.dll and code source is in this repository
+1. This method is part of a Library of jira routines (Jira methods) : JiraLib.dll based on REST API, and needs the use of JiraLib.dll
+2. Method is included in JiraLib.dll and code source is in this repository
 3. routine can be used and referenced with the JiraLib.dll reference in your c# project . Download the nuget package : https://www.nuget.org/packages/RestAPI-JIRA-Lib/ and make  call to this method in your code.
 4. is used with C# code
 5. Developed and tested in Visual Studio 2019.
-6. can be used as so , whitout reference to library JiraLib.dll, but it is then needed, to insert the method GetUSersDetailsFromGroup() code of routine in your project and rebuild the project.
+
