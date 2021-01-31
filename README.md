@@ -26,7 +26,7 @@ Is distributed as a .DLL library file
 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Dependency.PNG "Logo Title Text 1")
 
-![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Dependency-Capture.PNG "Logo Title Text 1")
+![alt text](  "Logo Title Text 1")
 
 # How to use
 
