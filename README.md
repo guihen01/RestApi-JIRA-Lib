@@ -24,7 +24,7 @@ Is distributed as a .DLL library file
 1. package EPPlus
 2. package Newtonsoft.Json; 
 
-![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Installed%20nuget%20packages.PNG "Logo Title Text 1")
+![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Installed%20nuget%20packages-1.PNG "Logo Title Text 1")
 
 1. Packages referenced in the Library : 
 
