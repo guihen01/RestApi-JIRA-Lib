@@ -22,12 +22,16 @@ Is distributed as a .DLL library file
 # Dependency 
 
 1. package EPPlus
-2. package Newtonsoft.Json;  
+2. package Newtonsoft.Json; 
 
+![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Installed%20nuget%20packages.PNG "Logo Title Text 1")
+
+3. Packages in the project : 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Dependency.PNG "Logo Title Text 1")
 
 
-![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Installed%20nuget%20packages.PNG "Logo Title Text 1")
+
+
 
 # How to use
 
