@@ -26,7 +26,7 @@ Is distributed as a .DLL library file
 
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Installed%20nuget%20packages.PNG "Logo Title Text 1")
 
-1. Packages in the project : 
+1. Packages referenced in the Library : 
 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Dependency.PNG "Logo Title Text 1")
 
