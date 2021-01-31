@@ -34,10 +34,13 @@ Is distributed as a .DLL library file
 
 1. Download the nuget package : https://www.nuget.org/packages/RestAPI-JIRA-Lib/ in your project
 
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/RestAPI-JIRA-Lib%20nuget%20package.PNG "Logo Title Text 1")
 
-2. JiraLib methods can be used and referenced with the JiraLib.dll reference in your c# project 
-3. is used with C# code
-4. Developed and tested in Visual Studio 2019
+2. It is also available for download at https://github.com/guihen01/RestApi-JIRA-Lib/releases/
+
+3. JiraLib methods can be used and referenced with the JiraLib.dll reference in your c# project 
+4. is used with C# code
+5. Developed and tested in Visual Studio 2019
 
 # How to use
 
@@ -54,15 +57,6 @@ Also in : https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Get%20Users%20F
 
 routines are async . so use await instruction for some routines 
 
-# Download
-1. Download the nuget package ( name of package : RestAPI-JIRA-Lib) at : https://www.nuget.org/packages/RestAPI-JIRA-Lib/
-
-![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/RestAPI-JIRA-Lib%20nuget%20package.PNG "Logo Title Text 1")
-
-OR
-
-2. Download the .DLL and others items at https://github.com/guihen01/RestApi-JIRA-Lib/releases/
- 
 # Routines inside the Library : 
 1. GetAllGroups  : Get a list of all Jira groups and save the list in 2 files : List-groups.json & List-groups.txt
 2. GetUSersFromGroup() : Get the list of all user's username belonging to a group and save the list in 2 files : List-users.json & List-users.txt . Print the list to the console
