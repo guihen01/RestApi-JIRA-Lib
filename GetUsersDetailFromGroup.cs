@@ -52,15 +52,12 @@ namespace JiraLib
             string url;
             url = urlbase + "/rest/api/2/group/member?groupname=" + group;
 
-            var client = new HttpClient();
-            var base64String = Convert.ToBase64String(Encoding.ASCII.GetBytes($"{username}:{password}"));
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", base64String);
+            //Send the request via Http protocol to the JIRA server & Get the response in a string (the string is Json formated)
+            //------------------------------------------------------------------------------------------------------------------
+            string result;
+            result = await Http.GetHttpResponse(username, password, url);
 
-            var response = await client.GetAsync(url);
-            Console.WriteLine(response.StatusCode);
-            string result = await response.Content.ReadAsStringAsync();
-            client.Dispose();
-
+            
             JObject Ob = JObject.Parse(result);
 
             // write list of group details in file " List-details-from-group-{0}.json 

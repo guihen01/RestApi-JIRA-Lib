@@ -37,21 +37,10 @@ namespace JiraLib
             Console.WriteLine(" URIs for Jira's REST API cchoosed to pick groups is : {0} ", url);
             Console.WriteLine("------------------------------------------------------------------------");
 
-            var client = new HttpClient();
-
-
-            var base64String = Convert.ToBase64String(Encoding.ASCII.GetBytes($"{username}:{password}"));
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", base64String);
-
-            var response = await client.GetAsync(url);
-            Console.WriteLine(response.StatusCode);
-
-            // It would be better to make sure this request actually made it through
-
-            string result = await response.Content.ReadAsStringAsync();
-
-            //close out the client
-            client.Dispose();
+            //Send the request via Http protocol to the JIRA server & Get the response in a string (the string is Json formated)
+            //------------------------------------------------------------------------------------------------------------------
+            string result;
+            result = await Http.GetHttpResponse(username, password, url);
 
             //wrtite to Console sous forme groupée
             //---------------------------------------------------------------------------
@@ -63,16 +52,6 @@ namespace JiraLib
             JObject o = JObject.Parse(result);
             Console.WriteLine(o.ToString());
             Console.WriteLine("----------------------------------------------------------");
-
-            //var items = o.SelectTokens("$.[?(@.Country=='India')]");
-            //foreach (var item in items)
-            //   Console.WriteLine(item);
-
-            //write the result sous forme groupée in a file 
-            // write the result in a json formated file
-            //----------------------------------------------------------------------------
-            //ecriture dans un fichier des données au format Json
-            // Get the current directory.
 
             string dir = Directory.GetCurrentDirectory();
             string path = dir + "/List-groups.json";
@@ -136,31 +115,21 @@ namespace JiraLib
             Console.WriteLine(" URIs for Jira's REST API choosed to pick group's members is : {0} ", url);
             Console.WriteLine("------------------------------------------------------------------------");
 
-            var client = new HttpClient();
-
-            string user;
+            string username;
             Console.WriteLine("user account in Jira for authentication");
             Console.WriteLine("---------------------------------------");
             Console.WriteLine(" Jira username  ? ");
-            user = Console.ReadLine();
+            username = Console.ReadLine();
 
             string password;
             Console.WriteLine(" Jira password  ? ");
             password = Console.ReadLine();
 
 
-            var base64String = Convert.ToBase64String(Encoding.ASCII.GetBytes($"{user}:{password}"));
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", base64String);
-
-            var response = await client.GetAsync(url);
-            Console.WriteLine(response.StatusCode);
-
-            // It would be better to make sure this request actually made it through
-
-            string result = await response.Content.ReadAsStringAsync();
-
-            //close out the client
-            client.Dispose();
+            //Send the request via Http protocol to the JIRA server & Get the response in a string (the string is Json formated)
+            //------------------------------------------------------------------------------------------------------------------
+            string result;
+            result = await Http.GetHttpResponse(username, password, url);
 
             //wrtite to Console sous forme groupée
             //---------------------------------------------------------------------------

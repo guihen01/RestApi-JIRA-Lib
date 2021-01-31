@@ -8,9 +8,10 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>JIRA RESTAPI Json</PackageTags>
     <Description>routines using JIRA REST API  to get or post  details on Jira server . results are printed on console and writen in json formated files and plain text formated files.</Description>
-    <Version>2.1.6</Version>
+    <Version>2.1.7</Version>
     <PackageProjectUrl>https://github.com/guihen01/RestApi-JIRA-Lib</PackageProjectUrl>
-    <PackageReleaseNotes>add method  GetHttpResponse() more robust and include try catch methods to get errors when using http protocol services for geting or posting Rest Api Demands to JIRA server.
+    <PackageReleaseNotes>add method GetAllUsersDetailToXL () 
+This method get all JIRA users details (groupname, username, displayname, email adress, active or not) from all JIRA groups and write results to an Excel file.
 Rebuild for netcore 5.0</PackageReleaseNotes>
     <PackageIcon>Henri Guillot.png</PackageIcon>
     <Copyright>Henri Guillot</Copyright>

@@ -48,31 +48,20 @@ namespace JiraLib
             Console.WriteLine(" URIs for Jira's REST API choosed to pick all matching items {0} ", url);
             Console.WriteLine("------------------------------------------------------------------------");
 
-            var client = new HttpClient();
-
-            string user;
+            string username;
             Console.WriteLine("user account in Jira for authentication");
             Console.WriteLine("---------------------------------------");
             Console.WriteLine(" Jira username  ? ");
-            user = Console.ReadLine();
+            username = Console.ReadLine();
 
             string password;
             Console.WriteLine(" Jira password  ? ");
             password = Console.ReadLine();
 
-
-            var base64String = Convert.ToBase64String(Encoding.ASCII.GetBytes($"{user}:{password}"));
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", base64String);
-
-            var response = await client.GetAsync(url);
-            Console.WriteLine(response.StatusCode);
-
-            // It would be better to make sure this request actually made it through
-
-            string result = await response.Content.ReadAsStringAsync();
-
-            //close out the client
-            client.Dispose();
+            //Send the request via Http protocol to the JIRA server & Get the response in a string (the string is Json formated)
+            //------------------------------------------------------------------------------------------------------------------
+            string result;
+            result = await Http.GetHttpResponse(username, password, url);
 
             //wrtite to Console sous forme groupée
             //---------------------------------------------------------------------------
@@ -151,31 +140,20 @@ namespace JiraLib
             Console.WriteLine(" URIs for Jira's REST API choosed to pick all matching items {0} ", url);
             Console.WriteLine("------------------------------------------------------------------------");
 
-            var client = new HttpClient();
-
-            string user;
+            string username;
             Console.WriteLine("user account in Jira for authentication");
             Console.WriteLine("---------------------------------------");
             Console.WriteLine(" Jira username  ? ");
-            user = Console.ReadLine();
+            username = Console.ReadLine();
 
             string password;
             Console.WriteLine(" Jira password  ? ");
             password = Console.ReadLine();
 
-
-            var base64String = Convert.ToBase64String(Encoding.ASCII.GetBytes($"{user}:{password}"));
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", base64String);
-
-            var response = await client.GetAsync(url);
-            Console.WriteLine(response.StatusCode);
-
-            // It would be better to make sure this request actually made it through
-
-            string result = await response.Content.ReadAsStringAsync();
-
-            //close out the client
-            client.Dispose();
+            //Send the request via Http protocol to the JIRA server & Get the response in a string (the string is Json formated)
+            //------------------------------------------------------------------------------------------------------------------
+            string result;
+            result = await Http.GetHttpResponse(username, password, url);
 
             //wrtite to Console sous forme groupée
             //---------------------------------------------------------------------------
@@ -248,31 +226,20 @@ namespace JiraLib
             Console.WriteLine(" URIs for Jira's REST API choosed to pick all projects {0} ", url);
             Console.WriteLine("------------------------------------------------------------------------");
 
-            var client = new HttpClient();
-
-            string user;
+            string username;
             Console.WriteLine("user account in Jira for authentication");
             Console.WriteLine("---------------------------------------");
             Console.WriteLine(" Jira username  ? ");
-            user = Console.ReadLine();
+            username = Console.ReadLine();
 
             string password;
             Console.WriteLine(" Jira password  ? ");
             password = Console.ReadLine();
 
-
-            var base64String = Convert.ToBase64String(Encoding.ASCII.GetBytes($"{user}:{password}"));
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", base64String);
-
-            var response = await client.GetAsync(url);
-            Console.WriteLine(response.StatusCode);
-
-            // It would be better to make sure this request actually made it through
-
-            string result = await response.Content.ReadAsStringAsync();
-
-            //close out the client
-            client.Dispose();
+            //Send the request via Http protocol to the JIRA server & Get the response in a string (the string is Json formated)
+            //------------------------------------------------------------------------------------------------------------------
+            string result;
+            result = await Http.GetHttpResponse(username, password, url);
 
             //wrtite to Console sous forme groupée
             //---------------------------------------------------------------------------
@@ -347,31 +314,21 @@ namespace JiraLib
             Console.WriteLine(" URIs for Jira's REST API choosed to pick Jira Infos {0} ", url);
             Console.WriteLine("------------------------------------------------------------------------");
 
-            var client = new HttpClient();
-
-            string user;
+            
+            string username;
             Console.WriteLine("user account in Jira for authentication");
             Console.WriteLine("---------------------------------------");
             Console.WriteLine(" Jira username  ? ");
-            user = Console.ReadLine();
+            username = Console.ReadLine();
 
             string password;
             Console.WriteLine(" Jira password  ? ");
             password = Console.ReadLine();
 
-
-            var base64String = Convert.ToBase64String(Encoding.ASCII.GetBytes($"{user}:{password}"));
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", base64String);
-
-            var response = await client.GetAsync(url);
-            Console.WriteLine(response.StatusCode);
-
-            // It would be better to make sure this request actually made it through
-
-            string result = await response.Content.ReadAsStringAsync();
-
-            //close out the client
-            client.Dispose();
+            //Send the request via Http protocol to the JIRA server & Get the response in a string (the string is Json formated)
+            //------------------------------------------------------------------------------------------------------------------
+            string result;
+            result = await Http.GetHttpResponse(username, password, url);
 
             //wrtite to Console sous forme groupée
             //---------------------------------------------------------------------------
