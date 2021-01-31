@@ -89,6 +89,6 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/PickItems/Result-Screensh
 1. Export to a Excel file, the list of all groups and of all the users belonging to each group : 
 2. name of the export file : List-ALl-UsersGroups
 
-![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Excel%20file%20List-ALl-UsersGroups.PNG "Logo Title Text 1") "Logo Title Text 1")
+![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsersDetailToXL/Doc/List-ALl-UsersGroups.PNG "Logo Title Text 1") "Logo Title Text 1")
 
 ![alt text](  "Logo Title Text 1") "Logo Title Text 1")
