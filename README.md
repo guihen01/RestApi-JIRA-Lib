@@ -80,7 +80,8 @@ Get the list of all user's username belonging to a group and save the list in 2 
 18. GetAllUsersDetailToXL() : Execute a GET http request on a Jira server with Rest API, to get all users details from all JIRA groups 
 . Store all users's details in a file : List-ALl-UsersGroups.xlsx in the current directory
 . Return an array of List objects which contains all JIRA users details from all JIRA groups
-18. CreateGroup() : Create a Jira group
+19. GetAllIssuesPj() Get a list of all issues in a project. Write list to a Excel file with list of all issues status, assignee,resolution, ...... 
+20. CreateGroup() : Create a Jira group
 
 # Pickitem() :method
 
@@ -101,4 +102,6 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/PickItems/Result-Screensh
 
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsersDetailToXL/Doc/List-ALl-UsersGroups.PNG "Logo Title Text 1") "Logo Title Text 1")
 
+ # GetAllIssuesPj() : method
  
+ ![alt text](  "Logo Title Text 1") "Logo Title Text 1")
