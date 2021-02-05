@@ -40,7 +40,7 @@ namespace JiraLib
         ///  Get All Jira user's username (from all groups) . It returns the list of all users & groups & write the results to an Excel file.
         /// </summary>
         /// <returns> List<Group> : returns a list of objects (objects of type Group) : List<Group> </returns> 
-        public static async Task<List<Group>> GetAllUsersToXL(string username, string password, string urlbase)
+        public async Task<List<Group>> GetAllUsersToXL(string username, string password, string urlbase)
         {
             //liste d'objets de type class Group qui  regroupe tous les groupes et  pour chaque groupe tous les usernames                        
             List<Group> Gr = new List<Group>();
