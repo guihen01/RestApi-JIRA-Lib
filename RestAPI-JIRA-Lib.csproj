@@ -6,13 +6,18 @@
     <Authors>Henri Guillot</Authors>
     <RepositoryUrl>https://github.com/guihen01/RestApi-JIRA-Lib</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>JIRA RESTAPI Json</PackageTags>
-    <Description>routines using JIRA REST API  to get or post  details on Jira server . results are printed on console and writen in json formated files and plain text formated files.</Description>
-    <Version>2.1.7</Version>
+    <PackageTags>JIRA RESTAPI Json HttpClient</PackageTags>
+    <Description>routines (methods) in a DLL library, to be used in C# code.
+
+routines using JIRA REST API  to get or post  details on JIRA server  &amp; groups, users, or Issues . results are printed on console and/or  writen in json formated files and/or plain text formated files,  and for some, in  Excel files.
+
+Doc at : https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/README.md
+
+Rest API from Jira Server platform REST API reference) :
+https://docs.atlassian.com/software/jira/docs/api/REST/8.13.2</Description>
+    <Version>2.1.9</Version>
     <PackageProjectUrl>https://github.com/guihen01/RestApi-JIRA-Lib</PackageProjectUrl>
-    <PackageReleaseNotes>add method GetAllUsersDetailToXL () 
-This method get all JIRA users details (groupname, username, displayname, email adress, active or not) from all JIRA groups and write results to an Excel file.
-Rebuild for netcore 5.0</PackageReleaseNotes>
+    <PackageReleaseNotes></PackageReleaseNotes>
     <PackageIcon>Henri Guillot.png</PackageIcon>
     <Copyright>Henri Guillot</Copyright>
   </PropertyGroup>
