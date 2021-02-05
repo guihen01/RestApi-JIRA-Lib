@@ -1,5 +1,7 @@
 ## RestApi-JIRA-Lib
 
+[![RestAPI-JIRA-Lib on fuget.org](https://www.fuget.org/packages/RestAPI-JIRA-Lib/badge.svg)](https://www.fuget.org/packages/RestAPI-JIRA-Lib)
+
 1. Library of jira routines based on REST API
 2. form : DLL
 3. used to extract or to get informations on Jira server
