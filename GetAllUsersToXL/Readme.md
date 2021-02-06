@@ -32,7 +32,7 @@
 2. nuget package Newtonsoft.Json;
 3. nuget package EPPlus
 
-![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsersToXL/Capture-4.PNG "Logo Title Text 1")
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllUsersToXL/Capture-4.PNG "Logo Title Text 1")
 
 # What we get 
 a file named : List-ALl-UsersGroups.xlsx is created in the current directory :
