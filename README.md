@@ -30,7 +30,7 @@ Is distributed as a .DLL library file
 
 1. Packages referenced in the Library : 
 
-![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Dependency-1.PNG "Logo Title Text 1")
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/Doc/Dependency-1.PNG "Logo Title Text 1")
 
 # Inplementation
 
