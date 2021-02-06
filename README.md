@@ -36,7 +36,7 @@ Is distributed as a .DLL library file
 
 1. Download the nuget package : https://www.nuget.org/packages/RestAPI-JIRA-Lib/ in your project
 
-![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/RestAPI-JIRA-Lib%20nuget%20package.PNG "Logo Title Text 1")
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/Doc/RestAPI-JIRA-Lib%20nuget%20package.PNG "Logo Title Text 1")
 
 2. It is also available for download at https://github.com/guihen01/RestApi-JIRA-Lib/releases/
 
