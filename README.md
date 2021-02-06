@@ -94,8 +94,8 @@ a simple routine which retruns a list of groups and/or names and/or emailadresse
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/PickItems/Result-Screenshots/Capture2.PNG
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/PickItems/Result-Screenshots/Capture2.PNG "Logo Title Text 1")  
 
-https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/PickItems/Result-Screenshots/Capture3.PNG
-![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/PickItems/Result-Screenshots/Capture3.PNG "Logo Title Text 1") 
+https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/PickItems/Result-Screenshots/Capture3.PNG
+![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/PickItems/Result-Screenshots/Capture3.PNG "Logo Title Text 1") 
 
 # GetAllUsersToXL() : method
 
