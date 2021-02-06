@@ -34,4 +34,4 @@
 
 # Exmple d<utilisation 
 
-![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsernameFromGroup/Capture-Exemple.PNG "Logo Title Text 1")
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllUsernameFromGroup/Capture-Exemple.PNG "Logo Title Text 1")
