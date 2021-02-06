@@ -6,7 +6,7 @@
 3. Write the result in an Excel file( List-ALl-UsersGroups.xlsx ) in the current directory
 4. Returns a list of objects (objects of type : JiraLib.Group ) 
 
- ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsersToXL/Capture-1.PNG "Logo Title Text 1")
+ ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllUsersToXL/Capture-1.PNG "Logo Title Text 1")
 
 # Inplementation
 
