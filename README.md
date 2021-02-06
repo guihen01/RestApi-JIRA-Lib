@@ -52,7 +52,7 @@ Is distributed as a .DLL library file
 3. using OfficeOpenXml;      only for JiraLib methods using Excel, such as GetAllUsersDetailToXL() or GetAllUsersToXL() 
 4. using System.Threading.Tasks;   Routines are async methods and need the use of await  and async Task declaration instruction 
 
-![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Get%20Users%20From%20Group/Screenshots/Capture%20How%20to%20use.PNG "Logo Title Text 1")
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/Get%20Users%20From%20Group/Screenshots/Capture%20How%20to%20use.PNG "Logo Title Text 1")
 
 See How to use it , in : https://github.com/guihen01/RestApi-JIRA-Lib/tree/main/Get-All-Jira-Groups
 
