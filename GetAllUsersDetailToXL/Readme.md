@@ -10,7 +10,7 @@
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllUsersDetailToXL/Doc/Capture1.PNG "Logo Title Text 1")
 
 # file List-ALl-UsersGroups.xlsx
-![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/GetAllUsersDetailToXL/Doc/List-ALl-UsersGroups.PNG "Logo Title Text 1")
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllUsersDetailToXL/Doc/List-ALl-UsersGroups.PNG "Logo Title Text 1")
 
 # Inplementation
 
