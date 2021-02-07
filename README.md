@@ -18,7 +18,8 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/SolutionView2.PNG
 
 # Publication
 
-Package distributed as a nuget package at : https://www.nuget.org/packages/RestAPI-JIRA-Lib/
+1. Package distributed as a nuget package at : https://www.nuget.org/packages/RestAPI-JIRA-Lib/
+2. Package, also, distributed as a nuget package at : https://github.com/guihen01/RestApi-JIRA-Lib/packages/611771 
 
 Is distributed as a .DLL library file
 
