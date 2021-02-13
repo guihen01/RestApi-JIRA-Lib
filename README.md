@@ -86,7 +86,9 @@ Get the list of all user's username belonging to a group and save the list in 2 
 . Store all users's details in a file : List-ALl-UsersGroups.xlsx in the current directory
 . Return an array of List objects which contains all JIRA users details from all JIRA groups
 19. GetAllIssuesPj() Get a list of all issues in a project. Write list to a Excel file with list of all issues status, assignee,resolution, ...... 
-20. CreateGroup() : Create a Jira group
+20. JiraPostRequest() This simple method allows to make a post rest api request to a jira server . write results to console & and to files located in the current directory .:  Response.txt  & Response.json. Parameters to give is a json file , containing your post request
+21. CreateGroup() : Create a Jira group
+ 
 
 # Pickitem() :method
 
