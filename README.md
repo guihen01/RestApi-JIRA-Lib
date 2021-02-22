@@ -87,7 +87,9 @@ Get the list of all user's username belonging to a group and save the list in 2 
 . Return an array of List objects which contains all JIRA users details from all JIRA groups
 19. GetAllIssuesPj() Get a list of all issues in a project. Write list to a Excel file with list of all issues status, assignee,resolution, ...... 
 20. JiraPostRequest() This simple method allows to make a post rest api request to a jira server . write results to console & and to files located in the current directory .:  Response.txt  & Response.json. Parameters to give is a json file , containing your post request
-21. CreateGroup() : Create a Jira group
+21. GetProjectIssues() : Get all issues details in a project. Get it from the json JObject Ob parameter. It parses and anlizes the JObject object & returns an array of all Issues ( type of array : IssueInfos[]) inside the project.:  GetProjectIssues(string projectname, JObject Ob, int NumberOfIssues)
+22. GetUnrIssuesPj() : returns a list of  all non resolved issues in a project. Write them in a Excel file 
+23. CreateGroup() : Create a Jira group
  
 
 # Pickitem() :method
@@ -113,3 +115,7 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/PickItems/Result-Scree
  
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllIssuesPj/Doc/Capture-Excel.PNG
  ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllIssuesPj/Doc/Capture-Excel.PNG "Logo Title Text 1") "Logo Title Text 1")
+ 
+# GetUnrIssuesPj() : method
+
+
