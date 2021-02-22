@@ -118,4 +118,6 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllIssuesPj/Doc/Cap
  
 # GetUnrIssuesPj() : method
 
+https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Capture-GetUnrresokvedIssues.PNG
+![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Capture-GetUnrresokvedIssues.PNG "Logo Title Text 1") "Logo Title Text 1")
 
