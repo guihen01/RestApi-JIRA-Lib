@@ -14,7 +14,7 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllIssuesPj/GetAll
 
 # How to use
 
-1. Download the nuget package at : https://www.nuget.org/packages/JIRA.GetAll.IssuesInPj/
+1. Download the nuget package at : https://www.nuget.org/packages/RestAPI-JIRA-Lib/
 2. USe Visual Studio or tool that use Nuget 
 3. in your c# code use the method GetAllIssuesPj()
 4. include the reference :   using JiraLib;
@@ -23,6 +23,7 @@ https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture4.PNG
 ![alt text]( https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture4.PNG "Logo Title Text 1")
 
 5. use : await GetAllIs.GetAllIssuesPj(username, password, urlbase, projectname, Writeconsole);
+
 method is packed and assembled in the dll : and included in the GetAllIS class
 
 https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture5.PNG
