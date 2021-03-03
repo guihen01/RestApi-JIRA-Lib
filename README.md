@@ -56,10 +56,6 @@ Is distributed as a .DLL library file
 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/Get%20Users%20From%20Group/Screenshots/Capture%20How%20to%20use.PNG "Logo Title Text 1")
 
-See How to use it , in : https://github.com/guihen01/RestApi-JIRA-Lib/tree/main/Get-All-Jira-Groups
-
-Also in : https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Get%20Users%20From%20Group/Screenshots/Capture%20How%20to%20use.PNG
-
 routines are async . so use await instruction for some routines 
 
 # Routines inside the Library : 
