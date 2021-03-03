@@ -6,10 +6,12 @@
 
 1. Library of jira routines based on REST API
 2. form : DLL
-3. used to extract or to get informations on Jira server
+3. used to extract or to get informations on Jira server and on Jira objects ( groups, users, issues , .....)
 4. is used with C# code 
 
 # Solution Explorer 
+
+List of classes and modules packed in the library :  
 
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/RestApi-Jira-Lib-Solution%20.GIF
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/RestApi-Jira-Lib-Solution%20.GIF "Logo Title Text 1")
