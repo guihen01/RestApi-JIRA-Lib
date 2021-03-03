@@ -28,8 +28,6 @@ https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture4.PNG
 
 method is packed and assembled in the dll : and included in the Get class
 
-https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture5.PNG
-![alt text]( https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture5.PNG "Logo Title Text 1")
+![alt text](  "Logo Title Text 1")
 
-https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture2.PNG
- ![alt text](https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture2.PNG  "Logo Title Text 1")
+ ![alt text](  "Logo Title Text 1")
