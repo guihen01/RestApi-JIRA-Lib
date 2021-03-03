@@ -13,3 +13,23 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Capture-GetUnrresokve
 
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetUnrIssuesPj/GetUnrIssuesPj-def.GIF
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetUnrIssuesPj/GetUnrIssuesPj-def.GIF  "Logo Title Text 1"))
+
+# How to use
+
+1. Download the nuget package at : https://www.nuget.org/packages/RestAPI-JIRA-Lib/
+2. USe Visual Studio or tool that use Nuget 
+3. in your c# code use the method GetUnrIssuesPj()
+4. include the reference :   using JiraLib;
+
+https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture4.PNG
+![alt text]( https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture4.PNG "Logo Title Text 1")
+
+5. use : await Get.GetUnrIssuesPj(username, password, urlbase, projectname, Writeconsole);
+
+method is packed and assembled in the dll : and included in the Get class
+
+https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture5.PNG
+![alt text]( https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture5.PNG "Logo Title Text 1")
+
+https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture2.PNG
+ ![alt text](https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture2.PNG  "Logo Title Text 1")
