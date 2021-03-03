@@ -32,3 +32,8 @@ https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture5.PNG
 https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture2.PNG
  ![alt text](https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture2.PNG  "Logo Title Text 1")
 
+# Console output : 
+What is displayed on your console screen if you choose  Writeconsole == 1 
+
+https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture-console-output.PNG
+![alt text]( https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture-console-output.PNG "Logo Title Text 1")
