@@ -16,9 +16,9 @@
 https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture4.PNG
 ![alt text]( https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture4.PNG "Logo Title Text 1")
 
-5. use : await Get.GetAllUsersToXL(username, password, urlbase, projectname, Writeconsole);
+5. use : await Get1.GetAllUsersToXL(username, password, urlbase, projectname, Writeconsole);
 
-method is packed and assembled in the dll  and included in the Get class
+method is packed and assembled in the dll  and included in the Get1 class
 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllUsersToXL/GetAllUsersToXL-inLib.GIF  "Logo Title Text 1")
 
