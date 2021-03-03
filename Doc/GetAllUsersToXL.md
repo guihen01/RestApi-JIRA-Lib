@@ -20,5 +20,5 @@ https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture4.PNG
 
 method is packed and assembled in the dll  and included in the Get1 class
 
-![alt text](  "Logo Title Text 1")
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllUsersToXL/GetAllUsersToXL-inLib.GIF  "Logo Title Text 1")
 
