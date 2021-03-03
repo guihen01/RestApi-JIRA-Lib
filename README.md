@@ -66,6 +66,7 @@ Is distributed as a .DLL library file
 routines are async . so use await instruction for some routines 
 
 # Routines inside the Library : 
+
 1. GetAllGroups  : Get a list of all Jira groups and save the list in 2 files : List-groups.json & List-groups.txt
 2. GetUSersFromGroup() : Get the list of all user's username belonging to a group and save the list in 2 files : List-users.json & List-users.txt . Print the list to the console
 3. GetUsernameFromGroup(username, password, urlbase, group) :
@@ -94,6 +95,12 @@ Get the list of all user's username belonging to a group and save the list in 2 
 22. GetUnrIssuesPj() : returns a list of  all non resolved issues in a project. Write them in a Excel file 
 23. CreateGroup() : Create a Jira group
  
+# detailed list of all methods in the library 
+
+. Goto to the following github site page for the methods docs : https://guihen01.github.io/RestApi-JIRA-Lib/RestApi-JIRA-Lib.html  
+    (Master site : https://guihen01.github.io/index.html ) 
+
+
 
 # Pickitem() :method
 
