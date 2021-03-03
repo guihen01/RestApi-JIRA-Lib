@@ -6,6 +6,10 @@
 
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllUsersDetailToXL/Doc/List-ALl-UsersGroups.PNG "Logo Title Text 1") "Logo Title Text 1")
 
+# Argumenst of the method 
+
+![alt text](  "Logo Title Text 1")
+
 # How to use
 
 1. Download the nuget package at : https://www.nuget.org/packages/RestAPI-JIRA-Lib/
