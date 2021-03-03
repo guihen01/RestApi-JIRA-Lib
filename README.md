@@ -9,7 +9,10 @@
 3. used to extract or to get informations on Jira server
 4. is used with C# code 
 
+# Solution Explorer 
+
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/RestApi-Jira-Lib-Solution%20.GIF
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/RestApi-Jira-Lib-Solution%20.GIF "Logo Title Text 1")
 
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/SolutionView1.PNGG
 
