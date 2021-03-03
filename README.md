@@ -100,7 +100,8 @@ Get the list of all user's username belonging to a group and save the list in 2 
 . Goto to the following github site page for the methods docs : https://guihen01.github.io/RestApi-JIRA-Lib/RestApi-JIRA-Lib.html  
     (Master site : https://guihen01.github.io/index.html ) 
 
-
+https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/web-site-doc.GIF
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/web-site-doc.GIF  "Logo Title Text 1") "Logo Title Text 1")
 
 # Pickitem() :method
 
