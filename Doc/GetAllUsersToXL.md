@@ -8,7 +8,7 @@
 
 # Arguments of the method 
 
-![alt text](  "Logo Title Text 1")
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllUsersToXL/GetAllUsersToXL-def.GIF  "Logo Title Text 1")
 
 # How to use
 
