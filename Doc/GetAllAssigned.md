@@ -5,8 +5,6 @@
 
 . It returns a list of all issues assigned to a user. Wrtites results to 2 files : a json file and a text file : List-issues-{user}.json  and List-issues-{user}.txt
 
-![alt text](  "Logo Title Text 1"))
-
 # Arguments of the method
 
 https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssigned/GetAllAssigned.GIF
@@ -29,4 +27,4 @@ method is packed and assembled in the dll : and included in the Get class
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetUnrIssuesPj/GetUnrIssuesPj-inLib.GIF "Logo Title Text 1")
 
  ![alt text](  "Logo Title Text 1")
-
+![alt text](  "Logo Title Text 1"))
