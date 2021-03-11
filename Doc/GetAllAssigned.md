@@ -24,7 +24,7 @@ https://github.com/guihen01/GetAllIssuesPj/blob/main/Doc/Capture4.PNG
 
 method is packed and assembled in the dll : and included in the Get class
 
-![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetUnrIssuesPj/GetUnrIssuesPj-inLib.GIF "Logo Title Text 1")
+![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssigned/GetAllAssigned-object.GIF "Logo Title Text 1")
 
  ![alt text](  "Logo Title Text 1")
 ![alt text](  "Logo Title Text 1"))
