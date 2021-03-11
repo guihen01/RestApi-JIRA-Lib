@@ -9,8 +9,8 @@
 
 # Arguments of the method
 
-https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssigned/GetAllAssigned.GIF
-![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssigned/GetAllAssigned.GIF  "Logo Title Text 1"))
+https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssignedToXL/GetAllAssignedToXL.GIF
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssignedToXL/GetAllAssignedToXL.GIF  "Logo Title Text 1"))
 
 # How to use
 
