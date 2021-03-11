@@ -32,5 +32,7 @@ method is packed and assembled in the dll : and included in the Get class
 
  ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssigned/Capture.GIF "Logo Title Text 1")
  
- * I Jira a JQL resquest shows all issues asigned to to this user 
+ * In Jira a JQL resquest shows all issues asigned to to this user 
+   * just PROD-23 to PROD-17 are displayed 
+   *  
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssigned/Capture1.GIF "Logo Title Text 1"))
