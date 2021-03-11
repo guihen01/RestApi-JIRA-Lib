@@ -31,4 +31,6 @@ method is packed and assembled in the dll : and included in the Get class
 * in this grab screen just one issue is displayed : issue key : PROD-23 , projetc key : PROD
 
  ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssigned/Capture.GIF "Logo Title Text 1")
-![alt text](  "Logo Title Text 1"))
+ 
+ * I Jira a JQL resquest shows all issues asigned to to this user 
+![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssigned/Capture1.GIF "Logo Title Text 1"))
