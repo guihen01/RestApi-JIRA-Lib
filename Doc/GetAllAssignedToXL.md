@@ -32,6 +32,7 @@ method is packed and assembled in the dll : and included in the Get class
 # Examples  :
 * Example : The grabscreen below, shows all issues assigned to username : gilunix
 * The parameter Writeconsole is set to false ( Writeconsole = false) in : ( await Get.GetAllAssignedToXL(username, password, urlbase, user, Writeconsole);)
+
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssignedToXL/run-3.GIF "Logo Title Text 1")
 
 * Example : The grabscreen below, shows all issues assigned to username : guihen01
