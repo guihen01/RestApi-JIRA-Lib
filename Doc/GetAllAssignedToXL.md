@@ -4,6 +4,7 @@
 [![NuGet](https://img.shields.io/nuget/v/JIRA.GetAll.IssuesInPj.svg)](https://www.nuget.org/packages/JIRA.GetAll.IssuesInPj/)
 
 . It returns a list of all issues assigned to a user. Wrtites results to Excel
+. Example : The grabscreen below, shows all issues assigned to username : guihen01
 
 ![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssignedToXL/GetAllAssignedToXL-example1.GIF  "Logo Title Text 1"))
 
