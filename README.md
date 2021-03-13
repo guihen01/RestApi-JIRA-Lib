@@ -114,11 +114,11 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/PickItems/Result-Scree
 
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllUsersDetailToXL/Doc/List-ALl-UsersGroups.PNG "Logo Title Text 1")
 
- # GetAllIssuesPj() : method
- * Get a list of all issues in a project. Write list to a Excel file with list of all issues status, assignee,resolution, ......
+# GetAllIssuesPj() : method
+* Get a list of all issues in a project. Write list to a Excel file with list of all issues status, assignee,resolution, ......
+* Doc at : https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllIssuesPj.md
 
-https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllIssuesPj/Doc/Capture-Excel.PNG
-![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllIssuesPj/Doc/Capture-Excel.PNG "Logo Title Text 1") "Logo Title Text 1")
+![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllIssuesPj/Doc/Capture-Excel.PNG "Logo Title Text 1")
  
 # GetUnrIssuesPj() : method
 * returns a list of all non resolved issues in a project. Write them in a Excel file
