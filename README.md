@@ -112,7 +112,7 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/PickItems/Result-Scree
 * name of the export file : List-ALl-UsersGroups (Store all users's details in the file : List-ALl-UsersGroups.xlsx in the current directory)
 * Return an array of List objects which contains all JIRA users details from all JIRA groups
 
-![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllUsersDetailToXL/Doc/List-ALl-UsersGroups.PNG "Logo Title Text 1") "Logo Title Text 1")
+![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllUsersDetailToXL/Doc/List-ALl-UsersGroups.PNG "Logo Title Text 1")
 
  # GetAllIssuesPj() : method
  * Get a list of all issues in a project. Write list to a Excel file with list of all issues status, assignee,resolution, ......
