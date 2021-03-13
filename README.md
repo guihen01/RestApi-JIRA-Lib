@@ -128,5 +128,6 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Capture-GetUnrresokve
 
 # GetAllAssignedToXL() : method
 * It returns a list of all issues assigned to a user. Wrtites results to a Excel file : List-Issues-AssignedTo-{user}.xlsx 
-* https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssignedToXL.md
+* Doc at : https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssignedToXL.md
+
 ![alt text](  "Logo Title Text 1")
