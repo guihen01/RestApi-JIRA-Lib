@@ -122,13 +122,13 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/GetAllIssuesPj/Doc/Cap
  
 # GetUnrIssuesPj() : method
 * returns a list of all non resolved issues in a project. Write them in a Excel file
+* Doc at : https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetUnrIssuesPj.md
 
-https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Capture-GetUnrresokvedIssues.PNG
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/Capture-GetUnrresokvedIssues.PNG "Logo Title Text 1")
 
 # GetAllAssigned() : method
 * It returns a list of all issues assigned to a user. Wrtites results to 2 files : a json file and a text file : List-issues-{user}.json and List-issues-{user}.txt
-* https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssigned.md
+* Doc at : https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssigned.md
 
 # GetAllAssignedToXL() : method
 * It returns a list of all issues assigned to a user. Wrtites results to a Excel file : List-Issues-AssignedTo-{user}.xlsx 
