@@ -134,5 +134,6 @@ https://github.com/guihen01/RestApi-JIRA-Lib/blob/Methods/PickItems/Result-Scree
 # GetAllAssignedToXL() : method
 * It returns a list of all issues assigned to a user. Wrtites results to a Excel file : List-Issues-AssignedTo-{user}.xlsx 
 * Doc at : https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssignedToXL.md
+* Example : The grabscreen below, shows all issues assigned to username : guihen01
 
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssignedToXL/GetAllAssignedToXL-example1.GIF "Logo Title Text 1")
