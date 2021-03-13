@@ -29,4 +29,17 @@ method is packed and assembled in the dll : and included in the Get class
 
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssignedToXL/GetAllAssignedToXL-objectview.GIF "Logo Title Text 1")
 
+# Examples  :
+* Example : The grabscreen below, shows all issues assigned to username : gilunix
+* The parameter Writeconsole is set to false ( Writeconsole = false) in : ( await Get.GetAllAssignedToXL(username, password, urlbase, user, Writeconsole);)
+![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssignedToXL/run-3.GIF "Logo Title Text 1")
+
+* Example : The grabscreen below, shows all issues assigned to username : guihen01
+* The parameter Writeconsole is set to true ( Writeconsole = true) so more details are displayed 
+
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssignedToXL/run-1.GIF  "Logo Title Text 1")
+
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssignedToXL/run-2.GIF  "Logo Title Text 1")
+
+
 
