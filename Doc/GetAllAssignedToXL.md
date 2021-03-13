@@ -5,7 +5,7 @@
 
 . It returns a list of all issues assigned to a user. Wrtites results to Excel
 
-![alt text](  "Logo Title Text 1"))
+![alt text](https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssignedToXL/GetAllAssignedToXL-example1.GIF  "Logo Title Text 1"))
 
 # Arguments of the method
 
