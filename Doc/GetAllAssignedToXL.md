@@ -29,4 +29,3 @@ method is packed and assembled in the dll : and included in the Get class
 ![alt text]( https://github.com/guihen01/RestApi-JIRA-Lib/blob/main/Doc/GetAllAssignedToXL/GetAllAssignedToXL-objectview.GIF "Logo Title Text 1")
 
 
-![alt text](  "Logo Title Text 1"))
